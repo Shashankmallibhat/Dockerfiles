@@ -15,7 +15,7 @@ services:
       - caddy_data:/data
       - caddy_config:/config
 
-  landing:
+  repo:
     stdin_open: true
     build: 
       dockerfile: Dockerfile
