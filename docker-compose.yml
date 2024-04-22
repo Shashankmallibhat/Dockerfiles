@@ -2,8 +2,7 @@ version: "3.8"
 services:
   caddy:
     depends_on:
-      - client 
-      - react
+      - repo
     build:
       dockerfile: Dockerfile
       context: "./caddy"
